@@ -17,7 +17,7 @@ You should see a green `12` flying up from your feet
 1. Move the [shader file](assets/minecraft/shaders/core/particle.vsh) into your resource pack at the same location (`assets/minecraft/shaders/core/particle.vsh`)
 2. Move the [particle textures](assets/minecraft/textures/particle) into your resource pack at the same location (`assets/minecraft/textures/particle`)
 3. **Modify** one of the 99 placeholder textures in **all of the particle texture files**, the files `effect_7` to `effect_0` represent the **evolution of the particle over time**
-4. Optionally adjust the **header pixel** row above
+4. Optionally [adjust the **header pixel** row](#header-pixels) above
 
 **Remember the numbers on the placeholder texture** you modified, the numbers are the **X and Y offset** from the original texture and are required for the `particle` command
 
