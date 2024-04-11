@@ -9,7 +9,7 @@ If you want to try it out before fully setting it up, you can do so
 3. Ingame, **select the resource pack**
 4. Run this command:
     ```mcfunction
-    particle entity_effect .12 .36 .15 0.98
+    particle entity_effect{ color: [ .12, .36, .15, .98 ]}
     ```
 You should see a green `12` flying up from your feet
 
@@ -23,7 +23,7 @@ You should see a green `12` flying up from your feet
 
 Use the **offset numbers** in the particle command like this:
 ```mcfunction
-particle entity_effect .XY .36 .15 0.98
+particle entity_effect{ color: [ .XY, .36, .15, .98 ]}
 ```
 _Replace X and Y with the X and Y offset where you placed your custom particle texture_
 
